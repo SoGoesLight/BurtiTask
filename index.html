@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Alphabet checker</title>
+</head>
+
+<body>
+<div class="notification">
+    <div>
+        <p>Check the output in console!</p>
+        <a href="#">
+            <span></span>
+        </a>
+    </div>
+</div>
+
+<div class='container'>
+    <div class="form-container">
+        <form>
+            <div class="form-page">
+                <label>Link to parse</label>
+                <input type="text" id="inputLink" placeholder="Any link here">
+                <input class="button" type="button" onclick="httpGet()" value="Get info"/>
+                <p align="right">*Output is in console</p>
+
+            </div>
+        </form>
+
+        <div id='txt' style="display: none"></div>
+    </div>
+</div>
+</body>
+
+</html>
